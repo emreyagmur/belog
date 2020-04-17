@@ -1,0 +1,302 @@
+/*!
+ * Author : Emre Yagmur
+ * 
+ */
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    padding-top: 56px;
+    font-family: 'Poppins', sans-serif;  
+    font-size: 12px !important;
+}
+
+#navbarResponsive {
+    font-size: 100% !important;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.color-gr {
+    color: rgba(0,0,0,.5) !important;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+/********** REGISTER PAGE *************************/
+.register-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+
+.register-body {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #343a40;
+}
+
+.register-head {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 80px;
+    padding: 20px;
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+    background-color: #343a40!important;
+    color: #fff;
+    font-size: 210%;
+}
+
+/********** REGISTER PAGE END *************************/
+
+
+
+
+
+/********** FOOTER *************************/
+
+.page-footer {
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+.orta {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+/********** FOOTER END *************************/
+
+
+/**************pages*******************************/
+
+.page-header {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: flow-root;
+    flex-direction: row;
+}
+
+.user-image {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.nav-tabs .nav-link.active {
+    font-weight:bold;
+    background-color: transparent;
+    border-bottom:3px solid #343a40;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.edit-profile-page {
+    border: 1px solid #ccc;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+/************* pages **********************/
+
+/********** user info **********************/
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+
+
+
+.well-sm {
+    padding: 9px;
+    border-radius: 3px;
+}
+
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.media-heading {
+    margin: 0 0 5px;
+}
+
+.label-info {
+    background-color: #5bc0de;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-warning {
+    background-color: #f0ad4e;
+}
+.label-success {
+    background-color: #5cb85c !important;
+    color: #fff !important;
+}
+
+.btn-xs {
+    padding: 1px 5px;
+}
+
+.btn-sm, .btn-xs {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.share-post {
+    padding: 0px!important;
+}
+
+.no-padding {
+    padding: 0px!important;
+}
+
+.no-border {
+    border: none!important;
+}
+.post-dropdown {
+    font-size: 99%!important;
+    color: #000!important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.01rem rgba(0,123,255,.25)!important;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.06rem rgba(0,123,255,.25);
+}
+
+.fw-10 {
+    width: 1.7em!important;
+}
+
+.left-fixed {
+    position: fixed;
+}
+
+.col-3 {
+    flex: 0 0 24%;
+    max-width: 24%;
+}
+
+.left-fixed-container-body {
+    max-height: 200px;
+    height: 200px;
+    overflow-y: auto;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
+.post-p10 {
+    padding: 10px 5px !important;
+}
+
+.right-content {
+    padding: 0!important;
+}
+
+.post-body {
+    padding: 15px 5px!important;
+}
+.post-body-f {
+    padding: 0 5px!important;
+}
+.posts:last-child {
+    margin-bottom: 55px!important;
+}
+/********** user info **********************/
+
+@media (max-width: 768px)
+{
+    .mobile-hidden {
+        display:none;
+    }
+    .hide-text {
+        display: none;
+    }
+    .mobile-display {
+        display:block;
+    }
+   
+}
+
+
+
+
+
+
